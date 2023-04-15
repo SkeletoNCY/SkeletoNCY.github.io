@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'PingFang SC';
+	src: url(../../assets/fonts/PingFangSC.woff2) format('woff2'),
+	url(../../assets/fonts/PingFangSC.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/PingFang%20SC.css">
+    <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Centered-badges.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Centered-icons.css">
+</head>
+
+<body>
+    <section class="py-4 py-xl-5">
+        <div class="container">
+            <div class="text-white bg-dark border rounded border-0 p-4 p-md-5">
+                <h2 class="fw-bold text-white mb-3" style="font-family: 'PingFang SC';font-weight: bold;">SpaceX Starship Flight Test Live Stream</h2>
+                <p class="mb-4" style="font-family: 'PingFang SC';margin-top: -5px;">SpaceX星舰轨道飞行测试直播</p>
+                <div><div id="dplayer" style="border-radius: 20px;"></div>
+<script src="DPlayer.min.js"></script>
+<script src="flv.js"></script>
+<script>
+    const player = new DPlayer({
+    container: document.getElementById('dplayer'),
+    live: true,
+    autoplay: true,
+    video: {
+        url: 'https://cn-zjjh-ct-04-11.bilivideo.com/live-bvc/207098/live_19193_2186291/index.m3u8?expires=1681562758&len=0&oi=3728831612&pt=web&qn=0&trid=1007f04372ab0fc647aaa12c51d72519f1b6&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha01&sign=3a08a5e88232f7b4c94e379af167d592&sk=fb9b69c57989c11d138bd21a9b0b1474&flvsk=f8b0b327ce4c3b9d1ddab6683384e0ee&p2p_type=1&sl=1&free_type=0&mid=245040973&sid=cn-zjjh-ct-04-11&chash=1&bmt=1&sche=ban&bvchls=1&score=15&pp=rtmp&source=onetier&trace=891&site=994fcefb5df5c9b97330076fa4235fab&order=1',
+        },
+    });
+</script></div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bold-and-dark.js"></script>
+    <script src="assets/js/DPlayer.min.js"></script>
+    <script src="assets/js/flv.js"></script>
+</body>
+
+</html>
